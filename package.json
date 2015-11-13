@@ -1,5 +1,5 @@
 {
-  "name": "ab-test-calculator",
+  "name": "data-driven-design-ab-test-calculator",
   "version": "1.0.0",
   "description": "Calculation modules for a/b testing analysis",
   "main": "index.js",
