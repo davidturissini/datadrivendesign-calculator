@@ -1,8 +1,8 @@
 'use strict';
 
-const calculateSampleSize = require('./calculateSampleSize');
-const calculateSampleVariance = require('./calculateSampleVariance');
-const calculateSampleSizeFromBaselineConversionRate = require('./calculateSampleSizeFromBaselineConversionRate');
+var calculateSampleSize = require('./calculateSampleSize');
+var calculateSampleVariance = require('./calculateSampleVariance');
+var calculateSampleSizeFromBaselineConversionRate = require('./calculateSampleSizeFromBaselineConversionRate');
 
 module.exports = {
     calculateSampleSize: calculateSampleSize,

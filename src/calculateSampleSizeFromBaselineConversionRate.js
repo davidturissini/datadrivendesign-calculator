@@ -1,7 +1,7 @@
 'use strict';
 
-const calculateSampleSize = require('./calculateSampleSize');
-const calculateSampleVariance = require('./calculateSampleVariance');
+var calculateSampleSize = require('./calculateSampleSize');
+var calculateSampleVariance = require('./calculateSampleVariance');
 
 
 
@@ -14,7 +14,7 @@ const calculateSampleVariance = require('./calculateSampleVariance');
 
 */
 module.exports = function calculateSampleSizeFromBaselineConversionRate (baseLineConversionRate, minimumDetectableEffect) {
-    const sampleVariance = calculateSampleVariance(baseLineConversionRate);
+    var sampleVariance = calculateSampleVariance(baseLineConversionRate);
 
     return calculateSampleSize(sampleVariance, minimumDetectableEffect);
     
