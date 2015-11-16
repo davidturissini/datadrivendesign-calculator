@@ -7,5 +7,5 @@ const calculateSampleSizeFromBaselineConversionRate = require('./calculateSample
 module.exports = {
     calculateSampleSize: calculateSampleSize,
     calculateSampleVariance: calculateSampleVariance,
-    calculateSampleSizeFromBaselineConversionRate
+    calculateSampleSizeFromBaselineConversionRate: calculateSampleSizeFromBaselineConversionRate
 }
