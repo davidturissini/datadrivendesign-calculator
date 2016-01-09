@@ -16,7 +16,7 @@ var tests = [{
 function calculateWinner (control, variation) {
     var pValue = calculatePValue(control, variation);
 
-    var winner = (confidence >= 0.5) ? control : variation;
+    var winner = (pValue >= 0.5) ? control : variation;
 
     return winner;
 
